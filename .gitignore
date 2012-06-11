@@ -39,6 +39,7 @@ vmlinux
 System.map
 Module.markers
 Module.symvers
+!.config
 !.gitignore
 !.mailmap
 
@@ -64,6 +65,7 @@ series
 
 # cscope files
 cscope.*
+!cscope.files
 ncscope.*
 
 # gnu global files
